@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+/* font-family: 'Merriweather Sans', sans-serif; */
+
+*{
+    text-align: center;
+}
+
+body {
+    background-image: url("images/repeat.jpg");
+    margin: 0px;
+}
+
+p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+li{
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 50px;
+    list-style-type: none;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h1{
+    color: red;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h2{
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.opacity{
+    opacity: 0.5;
+}
+.sized{
+    width: 70%;
+}
+#navbar{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#footer{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+a:visited, a:link
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(73, 60, 149);
+}
+
+/* .spacing{
+    margin-left: 50px;
+    margin-right: 50px;
+} */
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+a{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    width: 33.333%;
+    padding: 10px;
+}
+.box2{
+    width: 25%;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.smol{
+    width: 70px;
+    height: 70px;
+}
+
+.fiftypx{
+    font-size: 50px;
+}
+
+.redd{
+    background-color: rgb(158, 29, 29);
+}
+.blackk{
+    background-color: black;
+}
+
+.space{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.nomargin{
+    margin: 0px;
+}
+
+.bordersolid{
+    border-style: solid;
+}
+
+.pic:hover{
+    /* box-shadow: 10px 10px 0 darkgrey; */
+    transform: scale(1.05);
+    border-radius: 10%;
+    transition-duration: 0.1s;
+}
